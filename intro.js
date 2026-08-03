@@ -35,3 +35,5 @@ console.log(hello);
 const s = "Hello Ktec!";
 console.log(s.toUpperCase().substring(0, 5));
 //console.log(s.split(''))
+//
+
