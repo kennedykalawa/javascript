@@ -30,3 +30,8 @@ console.log("My name is " + name + "and I am " + age );
 console.log(`My name is ${name} and I am ${age}`);
 const hello = (`My name is ${name} and I am ${age}`);
 console.log(hello);
+
+//String Properties and methonds
+const s = "Hello Ktec!";
+console.log(s.toUpperCase().substring(0, 5));
+//console.log(s.split(''))
