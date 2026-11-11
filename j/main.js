@@ -11,6 +11,9 @@ let name = " Ceo Ktec";
 let age = 20;
 let isstudent = true;
 
-document.getElementById("p1").textContent = name;
-document.getElementById("p2").textContent = age;
-document.getElementById("p3").textContent = isstudent;
+/*document.getElementById("p3").textContent = name;
+document.getElementById("p4").textContent = age;
+document.getElementById("p5").textContent = isstudent; */
+document.getElementById("p1").textContent = `Your name is ${name}`;
+document.getElementById("p2").textContent = `You are ${age} years old`;
+document.getElementById("p3").textContent = `Enrolled: ${isstudent}`;
